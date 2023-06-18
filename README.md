@@ -1,2 +1,2 @@
 # odin-landing-page
-Created with html and css.
+Created with html and css. Rose Pine Theme.
