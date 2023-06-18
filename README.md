@@ -1,2 +1,2 @@
 # odin-landing-page
-Oding Project Landing Page Assignment
+Created with html and css.
