@@ -1,0 +1,158 @@
+* {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,
+    Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    margin: auto;
+}
+
+body {
+    background-color: #faf4ed;
+    color: #575279;
+    width: 100%;
+}
+
+.section1 {
+    background-color:#232136;
+    width: 100%;
+    color: #e0def4;
+}
+
+header {
+    display: flex;
+    width: 60%;
+    padding: 1%;
+}
+
+.logo {
+    margin-left: 0;
+    font-size: 24px;
+}
+
+.nav {
+    display: flex;
+    margin-right: 0;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.first {
+    display: flex;
+    padding: 5%;
+    width: 60%;
+    gap: 5%;
+}
+
+.first .text {
+    display: flex;
+    flex: 1;
+    padding: 0px 10px;
+}
+
+.first .text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.first .text2 h1 {
+    font-size: 48px;
+}
+
+.first .text2 button {
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 8px 30px;
+    margin-left: 0;
+    background-color:#9893a5;
+    color: #e0def4;
+}
+
+.first .image {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    background-color:#9893a5;
+    padding: 0px 10px;
+}
+
+.section2 {
+    padding: 2.5%;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto 2.5%;
+}
+
+.second {
+    display: flex;
+    margin: 2.5% auto;
+}
+
+.second .image2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.second .image2 img{
+    border: 3px solid #b4637a;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 12px;
+}
+
+.section3 {
+    background-color: #dfdad9;
+    padding: 5%;
+}
+
+.mid {
+    width: 50%;
+}
+
+.under {
+    text-align: right;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.section4 {
+    padding: 2.5%;
+    width: 50%;
+}
+
+.third {
+    display: flex;
+    padding: 2.5%;
+    border-radius: 12px;
+    background-color:#9893a5;
+    color: #e0def4;
+    justify-content: center;
+}
+
+.third .text {
+    flex: 3;
+}
+
+.third .button {
+    flex: 2;
+    text-align: center;
+}
+
+.third .button button{
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 8px 30px;
+}
+
+footer {
+    background-color: #232136;
+    color: #e0def4;
+    box-shadow: 0 50vh 0 50vh #232136;
+    text-align: center;
+    padding: 2.5%;
+}
